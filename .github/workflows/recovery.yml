@@ -7,9 +7,9 @@ on:
     types: [started]
 
 env:
-  DEVICE: phoenix
-  DT_LINK: https://github.com/mauronofrio/android_device_xiaomi_phoenix
-  DT_PATH: device/xiaomi/phoenix
+  DEVICE: RMX2185
+  DT_LINK: https://github.com/Mediatek-leaks/android_recovery_realme_RMX2185
+  DT_PATH: device/realme/RMX2185
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
@@ -53,4 +53,4 @@ jobs:
          run: |
               cd work/out/target/product/$DEVICE
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet OrangeFox-unofficial-phoenix.img    
+              ./transfer wet OrangeFox-unofficial-phoenim.img    
