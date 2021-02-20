@@ -39,7 +39,7 @@ jobs:
          run: |
              mkdir work
              cd work
-             git clone git@gitlab.com:OrangeFox/sync.git
+             git clone https://gitlab.com/OrangeFox/sync.git
              cd work/sync
              ./get_fox_10.sh work/manifest
              git clone $DT_LINK --depth=1 --single-branch $DT_PATH
