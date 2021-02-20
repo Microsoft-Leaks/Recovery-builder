@@ -53,4 +53,5 @@ jobs:
          run: |
               cd work/out/target/product/$DEVICE
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet OrangeFox-unofficial-phoenim.img    
+              ./transfer wet OrangeFox-unofficial-RMX2185.img
+              ./transfer wet *.zip    
